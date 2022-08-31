@@ -1,3 +1,5 @@
+
+
 // save reference to important DOM elements
 var timeDisplayEl = $('#time-display');
 
@@ -49,7 +51,7 @@ function displayTwo () {
 //attempting local storage logic
 
 
-$(".saveBtn").on("click," function () {
+$(".saveBtn").on("click", function () {
 
 
   console.log(this);
@@ -60,7 +62,7 @@ $(".saveBtn").on("click," function () {
 
 })
 
-$("#hour8 .description")
+$("#hour9 .description").val(localStorage.getItem("hour9"));
 
 
 
