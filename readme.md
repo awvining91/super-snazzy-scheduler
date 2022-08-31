@@ -16,7 +16,16 @@ I used a series of methods, passing through a "this" jQuery element that referre
 
 
 # Deployment Link
-
+https://awvining91.github.io/super-snazzy-scheduler/
 # Screenshot
 
 # References Used
+https://api.jquery.com/
+
+https://getbootstrap.com/docs/4.1/getting-started/introduction/
+
+https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery
+
+https://demos.devexpress.com/Bootstrap/Scheduler/ViewTypes.aspx
+
+
