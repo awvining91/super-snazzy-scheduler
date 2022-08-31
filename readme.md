@@ -14,6 +14,10 @@ With the html and css set up with bootstrap I thought that the acceptence criter
 
 I used a series of methods, passing through a "this" jQuery element that referred to the button tag in the html, and utilized the localStorage method to set and get the inputs the user puts in.
 
+## Next Steps
+
+This week we are doing server side APIs. They seem cool but honestly I a little bit behind because I have been playing catch up on this challenge. Later on I will review the materials and see if my favorite youtube channel has any videos on server-side APIs.
+
 
 ## Deployment Link
 https://awvining91.github.io/super-snazzy-scheduler/
@@ -24,22 +28,22 @@ https://awvining91.github.io/super-snazzy-scheduler/
 
 ## References Used
 
-https://api.jquery.com/
+- https://api.jquery.com/
 
-https://getbootstrap.com/docs/4.1/getting-started/introduction/
+- https://getbootstrap.com/docs/4.1/getting-started/introduction/
 
-https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery
+- https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery
 
-https://demos.devexpress.com/Bootstrap/Scheduler/ViewTypes.aspx
+- https://demos.devexpress.com/Bootstrap/Scheduler/ViewTypes.aspx
 
-https://www.w3schools.com/jquery/jquery_events.asp
+- https://www.w3schools.com/jquery/jquery_events.asp
 
-youtube.com
+- youtube.com
 
-lots of google
+- lots of google
 
-class materials
+- class materials
  
-class miniproject
+- class miniproject
 
 
