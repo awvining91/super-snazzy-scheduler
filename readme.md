@@ -1,12 +1,12 @@
 # Super-Snazzy-Scheduler!!
 
-# A Cool App to Manage Your Crazy Life!
+## A Cool App to Manage Your Crazy Life!
 
 This sites shows a cool, intuitive planner to help manage the chaos that is our lives. A handy clock and a display that shows the month and date helps keep track of time as we shuffle through this mortal coil.
 
 Jquery was utilized for brevity of code, as well as for my own sanity. Bootstrap made styling the css and html less horrible than usual.
 
-# Challenges
+## Challenges
 
 Finding a good template for the html/css that resembled the mock up and looked like a day schedule took me a really long time for some reason. This might be in part because I had to thoroughly review the weeks classroom materials to remember everything we covered. Coding bootcamps are crazy and proceed at a lighting pace.
 
@@ -15,11 +15,15 @@ With the html and css set up with bootstrap I thought that the acceptence criter
 I used a series of methods, passing through a "this" jQuery element that referred to the button tag in the html, and utilized the localStorage method to set and get the inputs the user puts in.
 
 
-# Deployment Link
+## Deployment Link
 https://awvining91.github.io/super-snazzy-scheduler/
-# Screenshot
 
-# References Used
+## Screenshot
+
+![image](https://user-images.githubusercontent.com/51838530/187803939-834a089d-f6ed-4af8-9aaf-1f665143e0af.png)
+
+## References Used
+
 https://api.jquery.com/
 
 https://getbootstrap.com/docs/4.1/getting-started/introduction/
@@ -27,5 +31,15 @@ https://getbootstrap.com/docs/4.1/getting-started/introduction/
 https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery
 
 https://demos.devexpress.com/Bootstrap/Scheduler/ViewTypes.aspx
+
+https://www.w3schools.com/jquery/jquery_events.asp
+
+youtube.com
+
+lots of google
+
+class materials
+ 
+class miniproject
 
 
