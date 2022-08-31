@@ -6,27 +6,7 @@ var timeDisplayEl = $('#time-display');
 //attempt jquery logic for time color blocks
 
 
-$(".time-block").each(function () {
-  var blockHour = parseInt($(this).attr("id").split("hour")[1]);
-  console.log( blockHour, currentHour)
 
-  //check if we've moved past this time, click into css/html given classes of past, present, or future
-  if (blockHour < currentHour) {
-      $(this).addClass("past");
-      $(this).removeClass("future");
-      $(this).removeClass("present");
-  }
-  else if (blockHour === currentHour) {
-      $(this).removeClass("past");
-      $(this).addClass("present");
-      $(this).removeClass("future");
-  }
-  else {
-      $(this).removeClass("present");
-      $(this).removeClass("past");
-      $(this).addClass("future");
-  }
-})
 
 
 
@@ -104,7 +84,6 @@ $("#15 .description").val(localStorage.getItem("15"));
 $("#16 .description").val(localStorage.getItem("16"));
 
 $("#17 .description").val(localStorage.getItem("17"));
-
 
 
 
