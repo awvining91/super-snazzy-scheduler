@@ -5,10 +5,45 @@
 // This helps display the date and time. I used a the mini-project as reference.
 var timeDisplayEl = $('#time-display');
 
-//attempt jquery logic for time color blocks
+/*Below is my attempted jquery logic for time color blocks. For some reason
+for some reason it kept making my date and time at the top of the page stop working.
+
+I was trying to figure out a way to use an if else statement using moment.js
+to compare to the hour of the time block and update the class of the time-block
+in css using the jQuery methods .addClass and .removeClass but was having
+toruble getting it work properly without stopping the clock. 
+
+I will probably 
+re-submit the challenge later once I have more time to work on it and 
+my knowledge increases.
+*/
+
+/*
 
 
+function TimeNow() {
+    var blockThing = moment().format(' hh');
+    blockDisplayEl.text(blockThing);
+  }
 
+
+function ()
+  if ( hourTimeBlock < timeNow) {
+    $(this).addClass("past");
+    $(this).removeClass("future");
+    $(this).removeClass("present");
+   }
+  else if ( hourTimeBlock === timeNow ) {
+   $(this).removeClass("past");
+    $(this).addClass("present");
+    $(this).removeClass("future");
+    }
+  else {
+    $(this).removeClass("present");
+    $(this).removeClass("past");
+    $(this).addClass("future");
+    }
+*/
 
 
 
@@ -124,6 +159,8 @@ function displayTime() {
   https://www.youtube.com/watch?v=TBVpCKNuPtw
 
   class miniproject
+
+  https://api.jquery.com/parent/#parent-selector
 
   some others I don't remember the links to
 
