@@ -1,3 +1,5 @@
+//Hi friend! I hope you like my day scheduler app! :)
+
 
 
 // This helps display the date and time. I used a the mini-project as reference.
@@ -74,8 +76,12 @@ $("#18 .write-here").val(localStorage.getItem("18"));
 
 $("#19 .write-here").val(localStorage.getItem("19"));
 
-
-
+/* References used to help with the logic:
+https://www.w3schools.com/jquery/jquery_events.asp
+https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery
+https://api.jquery.com/parent/#parent-selector
+class materials and class miniproject
+*/
 
 
 // This is a function for displaying date and time
@@ -124,4 +130,4 @@ function displayTime() {
 
   */
 
-  
+//Thanks for checking out my app! :)
